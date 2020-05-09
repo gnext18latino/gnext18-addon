@@ -15,6 +15,7 @@
     <import addon="script.common.plugin.cache" version="2.6.0"/>
     <import addon="script.module.metahandler" version="2.9.0"/>
     <import addon="script.module.resolveurl" version="5.0.0"/>
+    <import addon="plugin.video.f4mTester" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
