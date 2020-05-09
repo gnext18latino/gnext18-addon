@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.gnext18latino" name="gNext18Latino" version="1.0.5" provider-name="gNext18Latino">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.0"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true"/>
+    <import addon="script.module.urlresolver" version="5.0.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.common.plugin.cache" version="2.6.0"/>
+    <import addon="script.module.metahandler" version="2.9.0"/>
+    <import addon="script.module.resolveurl" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Powered by gNext18Latino</summary>
+    <description lang="en">Disfruta del mejor contenido multimedia compartido totalmente gratis para la comunidad, es responsabilidad del quien instale y lo utilice, con el fin de poder disfrutar gratuitamente el entretenimiento. Este complemento no aloja ni distribuye ninguno de los contenidos mostrados ni tiene afiliación con los proveedores de los sitios gratuitos que se encuentren en internet.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

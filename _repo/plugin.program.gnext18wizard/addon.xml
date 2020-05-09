@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.gnext18wizard" name="gNext18Wizard" version="1.2" provider-name="gNext18Latino">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B]gNext18Wizard Builds[/B]</summary>
+    <description lang="en">[B]gNext18Wizard [/B] te permitira instalar el pack de addons y complementos que pudiera traer dentro de la instalacion como tambien scripts necesarios para su funcionamiento que pudiera incluir en los mismos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
